@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+     body{
+      background-color: rgba(20, 20, 20, 255);
+      display: grid;
+      justify-content: center;
+      align
+     }
+     section{
+      margin-top: 150px;
+      width:500px;
+      border-radius: 20px;
+      height:fit-content;
+      background-color: rgba(31,31, 31, 255);
+      display:grid;
+      justify-content:center;
+      align-items: center;
+      
+     }
+     .avatar{
+      border-radius: 200px;
+      width: 120px;
+      margin: auto;
+      margin-top: 30px;
+     }
+     .name,.address {
+      margin: auto;
+      margin-top: 20px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:white;
+      font-size: 35px;
+     }
+     .address{
+      color: yellow;
+      font-size: 18px;
+      margin-top: 10px;
+     }
+     .brief{
+      color: white;
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     .social{
+      text-decoration: none;
+      background-color: rgba(80, 72, 72, 0.5);
+      margin-top: 10px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      margin-bottom: 5px;
+      width: 400px ;
+     }
+     .social:hover{
+      background-color: rgba(180, 227, 9, 0.837);
+      color: black;
+      transition-duration: 0.4s;
+      letter-spacing: 1px;
+     }
+  </style>
+</head>
+<body>
+  <section>
+    <img class="avatar" src="assets/images/avatar-jessica.jpeg">
+    <h2 class="name">Jessica Randall </h2>
+    <h3 class="address">London, United Kingdom</h3>
+    <p class="brief">"Front-end developer and avid reader."</p>
+    <a class="social" href="">GitHub</a>
+    <a class="social" href="">Frontend Mentor</a>
+    <a class="social" href="">LinkedIn</a>
+    <a class="social" href="">Twitter</a>
+    <a class="social" href="">Instagram</a>
+    <br><br>
+  </section>
+</body>
+</html>
